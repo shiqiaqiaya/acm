@@ -105,7 +105,7 @@ void QAQ() {
     };
 
     auto query = [&](auto & query, int l, int r, int p = 1) -> node {
-        if (l <= tr[p].l && tr[p].r <= r) { //被包含 
+        if (l <= tr[p].l && tr[p].r <= r) { //被包含
             return tr[p];
         }
         pushdown(p);
