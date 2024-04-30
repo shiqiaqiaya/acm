@@ -2,7 +2,6 @@
 using namespace std;
 #define int long long
 
-
 void QAQ() {
     int n, q, rt, mod;
     cin >> n >> q >> rt >> mod;
