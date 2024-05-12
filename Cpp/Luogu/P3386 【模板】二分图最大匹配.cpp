@@ -42,7 +42,7 @@ void QAQ() {
         }
 
         return ans;
-    } ();
+    } (n , m);
 
     cout << ans << "\n";
 }
